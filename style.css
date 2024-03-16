@@ -17,12 +17,44 @@
     box-sizing: border-box;
 }
 
+h1 {
+
+    font-size: 1.5rem;
+    margin: auto;
+}
+
+h2 {
+
+    font-size: 0.8rem;
+    color: var(--clr-primary-green);
+    margin: auto;
+    position: relative;
+    bottom: 0.7rem;
+}
+
 body {
 
     height: 100dvh;
     display: grid;
     grid-template-rows: auto 5dvh;
     background-color: var(--clr-off-black);
+}
+
+button {
+
+    min-height:2.5rem;
+    background-color: var(--clr-grey);
+    border-width: 0rem;
+    color: var(--clr-white);
+    border-radius: 10px;
+}
+
+
+button:hover{
+
+    background-color: var(--clr-primary-green);
+    color: var(--clr-grey);
+    font-weight: 700;
 }
 
 footer {
@@ -33,15 +65,35 @@ footer {
     justify-content: flex-end;
 }
 
+footer a {
+
+    color: var(--clr-primary-green);
+}
+
+footer p {
+
+    color: var(--clr-white);
+}
+
 main {
 
     display: flex;
     flex-direction: column;
     background-color: var(--clr-dark-grey);
     color: var(--clr-white);
+    margin: 1rem;
     border-radius: 1rem;
     padding: 2rem;
     gap: 1rem;
+}
+
+main p {
+
+    font-size: 0.8rem;
+    margin-right: 1.2rem;
+    margin-left: 1.2rem;
+    position: relative;
+    bottom:5px;
 }
 
 .container {
